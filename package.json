@@ -9,11 +9,6 @@
     "test": "echo $npm_package_name",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
-  },
   "devDependencies": {
     "husky": "^8.0.1"
   }
